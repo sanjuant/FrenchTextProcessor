@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenchTextProcessor", "FrenchTranslation\FrenchTextProcessor.csproj", "{3313A1A6-35F3-4F1B-9BBF-BD32FEED54DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3313A1A6-35F3-4F1B-9BBF-BD32FEED54DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3313A1A6-35F3-4F1B-9BBF-BD32FEED54DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3313A1A6-35F3-4F1B-9BBF-BD32FEED54DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3313A1A6-35F3-4F1B-9BBF-BD32FEED54DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04FEAFE7-6C73-4634-8702-C2F3570A05B4}
+	EndGlobalSection
+EndGlobal
