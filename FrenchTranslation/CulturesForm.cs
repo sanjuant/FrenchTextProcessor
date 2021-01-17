@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿// Copyright (c) https://sanjuant.fr - All rights reserved.  
+// https://github.com/sanjuant/FrenchTextProcessor
+// This project is under license - Mozilla Public License 2.0
+
+using System;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using static FrenchTranslation.FrenchTranslation;
 
@@ -32,7 +29,7 @@ namespace FrenchTranslation
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void CulturesForm_Load(object sender, EventArgs e)
         {
             SetWindowPos(this.Handle, HWND_TOPMOST, 0, 0, 0, 0, TOPMOST_FLAGS);
             RefreshForm(ft.configCulture);

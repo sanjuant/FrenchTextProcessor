@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Copyright (c) https://sanjuant.fr - All rights reserved.  
+// https://github.com/sanjuant/FrenchTextProcessor
+// This project is under license - Mozilla Public License 2.0
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using static FrenchTranslation.FrenchTranslation.ConfigCulture;

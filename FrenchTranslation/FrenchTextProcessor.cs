@@ -1,4 +1,6 @@
-﻿// Copyright (c) Sorrow. All rights reserved.  
+﻿// Copyright (c) https://sanjuant.fr - All rights reserved.  
+// https://github.com/sanjuant/FrenchTextProcessor
+// This project is under license - Mozilla Public License 2.0
 
 using System;
 using System.Collections.Generic;
@@ -32,9 +34,8 @@ namespace FrenchTranslation
             }
             else if (token == "._le" || token == "._la")
             {
-                string previousWord = Regex.Match(sourceText.Substring(0, newCursorPos - (token.Length + 2)), @"(\w*)\s*$").Groups[1].Value;
+                string previousWord = GetJobName(sourceText.Substring(0, newCursorPos - (token.Length + 2)));
                 token = token.Replace("._", string.Empty).ToLower();
-
                 string newValue;
                 if (token == "le")
                 {
@@ -43,7 +44,7 @@ namespace FrenchTranslation
                         outputString.Replace(previousWord, "l'");
                     } else
                     {
-                        outputString.Replace(previousWord, "le ");
+                        outputString.Replace(previousWord, "le");
                     }
                     outputString.Append(previousWord);
                 }
@@ -74,6 +75,18 @@ namespace FrenchTranslation
             {
                 Prefix(nextWord, token, outputString);
             }
+        }
+
+        private string GetJobName(string source)
+        {
+            foreach (KeyValuePair<string, string> job in ft.wordConfig.JobName)
+            {
+                if (source.Contains(job.Key))
+                {
+                    return job.Key;
+                }
+            }
+            return string.Empty;
         }
 
         private bool TokenStartWithCulture(string token)

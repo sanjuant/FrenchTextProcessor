@@ -1,4 +1,7 @@
-﻿
+﻿// Copyright (c) https://sanjuant.fr - All rights reserved.  
+// https://github.com/sanjuant/FrenchTextProcessor
+// This project is under license - Mozilla Public License 2.0
+
 namespace FrenchTranslation
 {
     partial class CulturesForm
@@ -33,74 +36,23 @@ namespace FrenchTranslation
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.culture_tableLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_tableLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_tl_region = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_label_region = new System.Windows.Forms.Label();
-            this.emp_textBox_region = new System.Windows.Forms.TextBox();
-            this.emp_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_label_femaleplural = new System.Windows.Forms.Label();
-            this.emp_textBox_femaleplural = new System.Windows.Forms.TextBox();
-            this.emp_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_label_maleplural = new System.Windows.Forms.Label();
-            this.emp_textBox_maleplural = new System.Windows.Forms.TextBox();
-            this.emp_tl_male = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_label_male = new System.Windows.Forms.Label();
-            this.emp_textBox_male = new System.Windows.Forms.TextBox();
-            this.emp_tl_female = new System.Windows.Forms.TableLayoutPanel();
-            this.emp_label_female = new System.Windows.Forms.Label();
-            this.emp_textBox_female = new System.Windows.Forms.TextBox();
-            this.emp_label_title = new System.Windows.Forms.Label();
-            this.khu_tableLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_tl_region = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_label_region = new System.Windows.Forms.Label();
-            this.khu_textBox_region = new System.Windows.Forms.TextBox();
-            this.khu_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_label_femaleplural = new System.Windows.Forms.Label();
-            this.khu_textBox_femaleplural = new System.Windows.Forms.TextBox();
-            this.khu_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_label_maleplural = new System.Windows.Forms.Label();
-            this.khu_textBox_maleplural = new System.Windows.Forms.TextBox();
-            this.khu_tl_male = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_label_male = new System.Windows.Forms.Label();
-            this.khu_textBox_male = new System.Windows.Forms.TextBox();
-            this.khu_tl_female = new System.Windows.Forms.TableLayoutPanel();
-            this.khu_label_female = new System.Windows.Forms.Label();
-            this.khu_textBox_female = new System.Windows.Forms.TextBox();
-            this.khu_label_title = new System.Windows.Forms.Label();
             this.vla_tableLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.vla_tl_region = new System.Windows.Forms.TableLayoutPanel();
-            this.vla_label_region = new System.Windows.Forms.Label();
-            this.vla_textBox_region = new System.Windows.Forms.TextBox();
-            this.vla_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.vla_label_femaleplural = new System.Windows.Forms.Label();
-            this.vla_textBox_femaleplural = new System.Windows.Forms.TextBox();
-            this.vla_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.vla_label_maleplural = new System.Windows.Forms.Label();
-            this.vla_textBox_maleplural = new System.Windows.Forms.TextBox();
+            this.vla_label_title = new System.Windows.Forms.Label();
             this.vla_tl_male = new System.Windows.Forms.TableLayoutPanel();
             this.vla_label_male = new System.Windows.Forms.Label();
             this.vla_textBox_male = new System.Windows.Forms.TextBox();
             this.vla_tl_female = new System.Windows.Forms.TableLayoutPanel();
             this.vla_label_female = new System.Windows.Forms.Label();
             this.vla_textBox_female = new System.Windows.Forms.TextBox();
-            this.vla_label_title = new System.Windows.Forms.Label();
-            this.stu_tableLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_tl_region = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_label_region = new System.Windows.Forms.Label();
-            this.stu_textBox_region = new System.Windows.Forms.TextBox();
-            this.stu_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_label_femaleplural = new System.Windows.Forms.Label();
-            this.stu_textBox_femaleplural = new System.Windows.Forms.TextBox();
-            this.stu_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_label_maleplural = new System.Windows.Forms.Label();
-            this.stu_textBox_maleplural = new System.Windows.Forms.TextBox();
-            this.stu_tl_male = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_label_male = new System.Windows.Forms.Label();
-            this.stu_textBox_male = new System.Windows.Forms.TextBox();
-            this.stu_tl_female = new System.Windows.Forms.TableLayoutPanel();
-            this.stu_label_female = new System.Windows.Forms.Label();
-            this.stu_textBox_female = new System.Windows.Forms.TextBox();
-            this.stu_label_title = new System.Windows.Forms.Label();
+            this.vla_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.vla_label_maleplural = new System.Windows.Forms.Label();
+            this.vla_textBox_maleplural = new System.Windows.Forms.TextBox();
+            this.vla_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.vla_label_femaleplural = new System.Windows.Forms.Label();
+            this.vla_textBox_femaleplural = new System.Windows.Forms.TextBox();
+            this.vla_tl_region = new System.Windows.Forms.TableLayoutPanel();
+            this.vla_label_region = new System.Windows.Forms.Label();
+            this.vla_textBox_region = new System.Windows.Forms.TextBox();
             this.ase_tableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.ase_tl_region = new System.Windows.Forms.TableLayoutPanel();
             this.ase_label_region = new System.Windows.Forms.Label();
@@ -118,6 +70,57 @@ namespace FrenchTranslation
             this.ase_label_female = new System.Windows.Forms.Label();
             this.ase_textBox_female = new System.Windows.Forms.TextBox();
             this.ase_label_title = new System.Windows.Forms.Label();
+            this.stu_tableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_tl_region = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_label_region = new System.Windows.Forms.Label();
+            this.stu_textBox_region = new System.Windows.Forms.TextBox();
+            this.stu_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_label_femaleplural = new System.Windows.Forms.Label();
+            this.stu_textBox_femaleplural = new System.Windows.Forms.TextBox();
+            this.stu_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_label_maleplural = new System.Windows.Forms.Label();
+            this.stu_textBox_maleplural = new System.Windows.Forms.TextBox();
+            this.stu_tl_male = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_label_male = new System.Windows.Forms.Label();
+            this.stu_textBox_male = new System.Windows.Forms.TextBox();
+            this.stu_tl_female = new System.Windows.Forms.TableLayoutPanel();
+            this.stu_label_female = new System.Windows.Forms.Label();
+            this.stu_textBox_female = new System.Windows.Forms.TextBox();
+            this.stu_label_title = new System.Windows.Forms.Label();
+            this.khu_tableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_tl_region = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_label_region = new System.Windows.Forms.Label();
+            this.khu_textBox_region = new System.Windows.Forms.TextBox();
+            this.khu_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_label_femaleplural = new System.Windows.Forms.Label();
+            this.khu_textBox_femaleplural = new System.Windows.Forms.TextBox();
+            this.khu_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_label_maleplural = new System.Windows.Forms.Label();
+            this.khu_textBox_maleplural = new System.Windows.Forms.TextBox();
+            this.khu_tl_male = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_label_male = new System.Windows.Forms.Label();
+            this.khu_textBox_male = new System.Windows.Forms.TextBox();
+            this.khu_tl_female = new System.Windows.Forms.TableLayoutPanel();
+            this.khu_label_female = new System.Windows.Forms.Label();
+            this.khu_textBox_female = new System.Windows.Forms.TextBox();
+            this.khu_label_title = new System.Windows.Forms.Label();
+            this.emp_tableLayout = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_tl_region = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_label_region = new System.Windows.Forms.Label();
+            this.emp_textBox_region = new System.Windows.Forms.TextBox();
+            this.emp_tl_femaleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_label_femaleplural = new System.Windows.Forms.Label();
+            this.emp_textBox_femaleplural = new System.Windows.Forms.TextBox();
+            this.emp_tl_maleplural = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_label_maleplural = new System.Windows.Forms.Label();
+            this.emp_textBox_maleplural = new System.Windows.Forms.TextBox();
+            this.emp_tl_male = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_label_male = new System.Windows.Forms.Label();
+            this.emp_textBox_male = new System.Windows.Forms.TextBox();
+            this.emp_tl_female = new System.Windows.Forms.TableLayoutPanel();
+            this.emp_label_female = new System.Windows.Forms.Label();
+            this.emp_textBox_female = new System.Windows.Forms.TextBox();
+            this.emp_label_title = new System.Windows.Forms.Label();
             this.bat_tableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.bat_tl_region = new System.Windows.Forms.TableLayoutPanel();
             this.bat_label_region = new System.Windows.Forms.Label();
@@ -142,36 +145,36 @@ namespace FrenchTranslation
             this.flowLayoutPanel.SuspendLayout();
             this.tableLayout.SuspendLayout();
             this.culture_tableLayout.SuspendLayout();
-            this.emp_tableLayout.SuspendLayout();
-            this.emp_tl_region.SuspendLayout();
-            this.emp_tl_femaleplural.SuspendLayout();
-            this.emp_tl_maleplural.SuspendLayout();
-            this.emp_tl_male.SuspendLayout();
-            this.emp_tl_female.SuspendLayout();
-            this.khu_tableLayout.SuspendLayout();
-            this.khu_tl_region.SuspendLayout();
-            this.khu_tl_femaleplural.SuspendLayout();
-            this.khu_tl_maleplural.SuspendLayout();
-            this.khu_tl_male.SuspendLayout();
-            this.khu_tl_female.SuspendLayout();
             this.vla_tableLayout.SuspendLayout();
-            this.vla_tl_region.SuspendLayout();
-            this.vla_tl_femaleplural.SuspendLayout();
-            this.vla_tl_maleplural.SuspendLayout();
             this.vla_tl_male.SuspendLayout();
             this.vla_tl_female.SuspendLayout();
-            this.stu_tableLayout.SuspendLayout();
-            this.stu_tl_region.SuspendLayout();
-            this.stu_tl_femaleplural.SuspendLayout();
-            this.stu_tl_maleplural.SuspendLayout();
-            this.stu_tl_male.SuspendLayout();
-            this.stu_tl_female.SuspendLayout();
+            this.vla_tl_maleplural.SuspendLayout();
+            this.vla_tl_femaleplural.SuspendLayout();
+            this.vla_tl_region.SuspendLayout();
             this.ase_tableLayout.SuspendLayout();
             this.ase_tl_region.SuspendLayout();
             this.ase_tl_femaleplural.SuspendLayout();
             this.ase_tl_maleplural.SuspendLayout();
             this.ase_tl_male.SuspendLayout();
             this.ase_tl_female.SuspendLayout();
+            this.stu_tableLayout.SuspendLayout();
+            this.stu_tl_region.SuspendLayout();
+            this.stu_tl_femaleplural.SuspendLayout();
+            this.stu_tl_maleplural.SuspendLayout();
+            this.stu_tl_male.SuspendLayout();
+            this.stu_tl_female.SuspendLayout();
+            this.khu_tableLayout.SuspendLayout();
+            this.khu_tl_region.SuspendLayout();
+            this.khu_tl_femaleplural.SuspendLayout();
+            this.khu_tl_maleplural.SuspendLayout();
+            this.khu_tl_male.SuspendLayout();
+            this.khu_tl_female.SuspendLayout();
+            this.emp_tableLayout.SuspendLayout();
+            this.emp_tl_region.SuspendLayout();
+            this.emp_tl_femaleplural.SuspendLayout();
+            this.emp_tl_maleplural.SuspendLayout();
+            this.emp_tl_male.SuspendLayout();
+            this.emp_tl_female.SuspendLayout();
             this.bat_tableLayout.SuspendLayout();
             this.bat_tl_region.SuspendLayout();
             this.bat_tl_femaleplural.SuspendLayout();
@@ -216,11 +219,11 @@ namespace FrenchTranslation
             this.culture_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.culture_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.culture_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.culture_tableLayout.Controls.Add(this.emp_tableLayout, 2, 0);
-            this.culture_tableLayout.Controls.Add(this.khu_tableLayout, 0, 1);
             this.culture_tableLayout.Controls.Add(this.vla_tableLayout, 0, 0);
-            this.culture_tableLayout.Controls.Add(this.stu_tableLayout, 1, 0);
             this.culture_tableLayout.Controls.Add(this.ase_tableLayout, 0, 1);
+            this.culture_tableLayout.Controls.Add(this.stu_tableLayout, 1, 0);
+            this.culture_tableLayout.Controls.Add(this.khu_tableLayout, 1, 1);
+            this.culture_tableLayout.Controls.Add(this.emp_tableLayout, 2, 0);
             this.culture_tableLayout.Controls.Add(this.bat_tableLayout, 2, 1);
             this.culture_tableLayout.Location = new System.Drawing.Point(0, 0);
             this.culture_tableLayout.Margin = new System.Windows.Forms.Padding(0);
@@ -231,570 +234,6 @@ namespace FrenchTranslation
             this.culture_tableLayout.Size = new System.Drawing.Size(797, 436);
             this.culture_tableLayout.TabIndex = 0;
             // 
-            // emp_tableLayout
-            // 
-            this.emp_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tableLayout.BackColor = System.Drawing.SystemColors.Control;
-            this.emp_tableLayout.ColumnCount = 1;
-            this.emp_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.emp_tableLayout.Controls.Add(this.emp_tl_region, 0, 5);
-            this.emp_tableLayout.Controls.Add(this.emp_tl_femaleplural, 0, 4);
-            this.emp_tableLayout.Controls.Add(this.emp_tl_maleplural, 0, 3);
-            this.emp_tableLayout.Controls.Add(this.emp_tl_male, 0, 1);
-            this.emp_tableLayout.Controls.Add(this.emp_tl_female, 0, 2);
-            this.emp_tableLayout.Controls.Add(this.emp_label_title, 0, 0);
-            this.emp_tableLayout.Location = new System.Drawing.Point(530, 0);
-            this.emp_tableLayout.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tableLayout.Name = "emp_tableLayout";
-            this.emp_tableLayout.RowCount = 6;
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.emp_tableLayout.Size = new System.Drawing.Size(267, 218);
-            this.emp_tableLayout.TabIndex = 5;
-            // 
-            // emp_tl_region
-            // 
-            this.emp_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tl_region.ColumnCount = 2;
-            this.emp_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_region.Controls.Add(this.emp_label_region, 0, 0);
-            this.emp_tl_region.Controls.Add(this.emp_textBox_region, 1, 0);
-            this.emp_tl_region.Location = new System.Drawing.Point(0, 180);
-            this.emp_tl_region.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tl_region.Name = "emp_tl_region";
-            this.emp_tl_region.RowCount = 1;
-            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.emp_tl_region.Size = new System.Drawing.Size(267, 38);
-            this.emp_tl_region.TabIndex = 2;
-            // 
-            // emp_label_region
-            // 
-            this.emp_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_region.AutoSize = true;
-            this.emp_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_region.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_region.Name = "emp_label_region";
-            this.emp_label_region.Size = new System.Drawing.Size(127, 38);
-            this.emp_label_region.TabIndex = 0;
-            this.emp_label_region.Text = "Région";
-            this.emp_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emp_textBox_region
-            // 
-            this.emp_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_textBox_region.Location = new System.Drawing.Point(133, 5);
-            this.emp_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.emp_textBox_region.Name = "emp_textBox_region";
-            this.emp_textBox_region.Size = new System.Drawing.Size(134, 26);
-            this.emp_textBox_region.TabIndex = 1;
-            this.emp_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // emp_tl_femaleplural
-            // 
-            this.emp_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tl_femaleplural.ColumnCount = 2;
-            this.emp_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_femaleplural.Controls.Add(this.emp_label_femaleplural, 0, 0);
-            this.emp_tl_femaleplural.Controls.Add(this.emp_textBox_femaleplural, 1, 0);
-            this.emp_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
-            this.emp_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tl_femaleplural.Name = "emp_tl_femaleplural";
-            this.emp_tl_femaleplural.RowCount = 1;
-            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_femaleplural.Size = new System.Drawing.Size(267, 36);
-            this.emp_tl_femaleplural.TabIndex = 2;
-            // 
-            // emp_label_femaleplural
-            // 
-            this.emp_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_femaleplural.AutoSize = true;
-            this.emp_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_femaleplural.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_femaleplural.Name = "emp_label_femaleplural";
-            this.emp_label_femaleplural.Size = new System.Drawing.Size(127, 36);
-            this.emp_label_femaleplural.TabIndex = 0;
-            this.emp_label_femaleplural.Text = "Féminin Pluriel";
-            this.emp_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emp_textBox_femaleplural
-            // 
-            this.emp_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_textBox_femaleplural.Location = new System.Drawing.Point(133, 5);
-            this.emp_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.emp_textBox_femaleplural.Name = "emp_textBox_femaleplural";
-            this.emp_textBox_femaleplural.Size = new System.Drawing.Size(134, 26);
-            this.emp_textBox_femaleplural.TabIndex = 1;
-            this.emp_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // emp_tl_maleplural
-            // 
-            this.emp_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tl_maleplural.ColumnCount = 2;
-            this.emp_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_maleplural.Controls.Add(this.emp_label_maleplural, 0, 0);
-            this.emp_tl_maleplural.Controls.Add(this.emp_textBox_maleplural, 1, 0);
-            this.emp_tl_maleplural.Location = new System.Drawing.Point(0, 108);
-            this.emp_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tl_maleplural.Name = "emp_tl_maleplural";
-            this.emp_tl_maleplural.RowCount = 1;
-            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_maleplural.Size = new System.Drawing.Size(267, 36);
-            this.emp_tl_maleplural.TabIndex = 2;
-            // 
-            // emp_label_maleplural
-            // 
-            this.emp_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_maleplural.AutoSize = true;
-            this.emp_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_maleplural.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_maleplural.Name = "emp_label_maleplural";
-            this.emp_label_maleplural.Size = new System.Drawing.Size(127, 36);
-            this.emp_label_maleplural.TabIndex = 0;
-            this.emp_label_maleplural.Text = "Masculin Pluriel";
-            this.emp_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emp_textBox_maleplural
-            // 
-            this.emp_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
-            this.emp_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_textBox_maleplural.Location = new System.Drawing.Point(133, 5);
-            this.emp_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.emp_textBox_maleplural.Name = "emp_textBox_maleplural";
-            this.emp_textBox_maleplural.Size = new System.Drawing.Size(134, 26);
-            this.emp_textBox_maleplural.TabIndex = 1;
-            this.emp_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // emp_tl_male
-            // 
-            this.emp_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tl_male.ColumnCount = 2;
-            this.emp_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_male.Controls.Add(this.emp_label_male, 0, 0);
-            this.emp_tl_male.Controls.Add(this.emp_textBox_male, 1, 0);
-            this.emp_tl_male.Location = new System.Drawing.Point(0, 36);
-            this.emp_tl_male.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tl_male.Name = "emp_tl_male";
-            this.emp_tl_male.RowCount = 1;
-            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_male.Size = new System.Drawing.Size(267, 36);
-            this.emp_tl_male.TabIndex = 0;
-            // 
-            // emp_label_male
-            // 
-            this.emp_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_male.AutoSize = true;
-            this.emp_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_male.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_male.Name = "emp_label_male";
-            this.emp_label_male.Size = new System.Drawing.Size(127, 36);
-            this.emp_label_male.TabIndex = 0;
-            this.emp_label_male.Text = "Masculin";
-            this.emp_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emp_textBox_male
-            // 
-            this.emp_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_textBox_male.BackColor = System.Drawing.SystemColors.Window;
-            this.emp_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_textBox_male.Location = new System.Drawing.Point(133, 5);
-            this.emp_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.emp_textBox_male.Name = "emp_textBox_male";
-            this.emp_textBox_male.Size = new System.Drawing.Size(134, 26);
-            this.emp_textBox_male.TabIndex = 1;
-            this.emp_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // emp_tl_female
-            // 
-            this.emp_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_tl_female.ColumnCount = 2;
-            this.emp_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_female.Controls.Add(this.emp_label_female, 0, 0);
-            this.emp_tl_female.Controls.Add(this.emp_textBox_female, 1, 0);
-            this.emp_tl_female.Location = new System.Drawing.Point(0, 72);
-            this.emp_tl_female.Margin = new System.Windows.Forms.Padding(0);
-            this.emp_tl_female.Name = "emp_tl_female";
-            this.emp_tl_female.RowCount = 1;
-            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.emp_tl_female.Size = new System.Drawing.Size(267, 36);
-            this.emp_tl_female.TabIndex = 1;
-            // 
-            // emp_label_female
-            // 
-            this.emp_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_female.AutoSize = true;
-            this.emp_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_female.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_female.Name = "emp_label_female";
-            this.emp_label_female.Size = new System.Drawing.Size(127, 36);
-            this.emp_label_female.TabIndex = 0;
-            this.emp_label_female.Text = "Féminin";
-            this.emp_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // emp_textBox_female
-            // 
-            this.emp_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_textBox_female.BackColor = System.Drawing.SystemColors.Window;
-            this.emp_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_textBox_female.Location = new System.Drawing.Point(133, 5);
-            this.emp_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.emp_textBox_female.Name = "emp_textBox_female";
-            this.emp_textBox_female.Size = new System.Drawing.Size(134, 26);
-            this.emp_textBox_female.TabIndex = 1;
-            this.emp_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // emp_label_title
-            // 
-            this.emp_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.emp_label_title.AutoSize = true;
-            this.emp_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_label_title.Location = new System.Drawing.Point(3, 0);
-            this.emp_label_title.Name = "emp_label_title";
-            this.emp_label_title.Size = new System.Drawing.Size(261, 36);
-            this.emp_label_title.TabIndex = 3;
-            this.emp_label_title.Text = "Empire";
-            this.emp_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.emp_label_title.UseMnemonic = false;
-            // 
-            // khu_tableLayout
-            // 
-            this.khu_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tableLayout.BackColor = System.Drawing.SystemColors.Control;
-            this.khu_tableLayout.ColumnCount = 1;
-            this.khu_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.khu_tableLayout.Controls.Add(this.khu_tl_region, 0, 5);
-            this.khu_tableLayout.Controls.Add(this.khu_tl_femaleplural, 0, 4);
-            this.khu_tableLayout.Controls.Add(this.khu_tl_maleplural, 0, 3);
-            this.khu_tableLayout.Controls.Add(this.khu_tl_male, 0, 1);
-            this.khu_tableLayout.Controls.Add(this.khu_tl_female, 0, 2);
-            this.khu_tableLayout.Controls.Add(this.khu_label_title, 0, 0);
-            this.khu_tableLayout.Location = new System.Drawing.Point(265, 218);
-            this.khu_tableLayout.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tableLayout.Name = "khu_tableLayout";
-            this.khu_tableLayout.RowCount = 6;
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.khu_tableLayout.Size = new System.Drawing.Size(265, 218);
-            this.khu_tableLayout.TabIndex = 3;
-            // 
-            // khu_tl_region
-            // 
-            this.khu_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tl_region.ColumnCount = 2;
-            this.khu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_region.Controls.Add(this.khu_label_region, 0, 0);
-            this.khu_tl_region.Controls.Add(this.khu_textBox_region, 1, 0);
-            this.khu_tl_region.Location = new System.Drawing.Point(0, 180);
-            this.khu_tl_region.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tl_region.Name = "khu_tl_region";
-            this.khu_tl_region.RowCount = 1;
-            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.khu_tl_region.Size = new System.Drawing.Size(265, 38);
-            this.khu_tl_region.TabIndex = 2;
-            // 
-            // khu_label_region
-            // 
-            this.khu_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_region.AutoSize = true;
-            this.khu_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_region.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_region.Name = "khu_label_region";
-            this.khu_label_region.Size = new System.Drawing.Size(126, 38);
-            this.khu_label_region.TabIndex = 0;
-            this.khu_label_region.Text = "Région";
-            this.khu_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // khu_textBox_region
-            // 
-            this.khu_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_textBox_region.Location = new System.Drawing.Point(132, 5);
-            this.khu_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.khu_textBox_region.Name = "khu_textBox_region";
-            this.khu_textBox_region.Size = new System.Drawing.Size(133, 26);
-            this.khu_textBox_region.TabIndex = 1;
-            this.khu_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // khu_tl_femaleplural
-            // 
-            this.khu_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tl_femaleplural.ColumnCount = 2;
-            this.khu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_femaleplural.Controls.Add(this.khu_label_femaleplural, 0, 0);
-            this.khu_tl_femaleplural.Controls.Add(this.khu_textBox_femaleplural, 1, 0);
-            this.khu_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
-            this.khu_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tl_femaleplural.Name = "khu_tl_femaleplural";
-            this.khu_tl_femaleplural.RowCount = 1;
-            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
-            this.khu_tl_femaleplural.TabIndex = 2;
-            // 
-            // khu_label_femaleplural
-            // 
-            this.khu_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_femaleplural.AutoSize = true;
-            this.khu_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_femaleplural.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_femaleplural.Name = "khu_label_femaleplural";
-            this.khu_label_femaleplural.Size = new System.Drawing.Size(126, 36);
-            this.khu_label_femaleplural.TabIndex = 0;
-            this.khu_label_femaleplural.Text = "Féminin Pluriel";
-            this.khu_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // khu_textBox_femaleplural
-            // 
-            this.khu_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
-            this.khu_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.khu_textBox_femaleplural.Name = "khu_textBox_femaleplural";
-            this.khu_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
-            this.khu_textBox_femaleplural.TabIndex = 1;
-            this.khu_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // khu_tl_maleplural
-            // 
-            this.khu_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tl_maleplural.ColumnCount = 2;
-            this.khu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_maleplural.Controls.Add(this.khu_label_maleplural, 0, 0);
-            this.khu_tl_maleplural.Controls.Add(this.khu_textBox_maleplural, 1, 0);
-            this.khu_tl_maleplural.Location = new System.Drawing.Point(0, 108);
-            this.khu_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tl_maleplural.Name = "khu_tl_maleplural";
-            this.khu_tl_maleplural.RowCount = 1;
-            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_maleplural.Size = new System.Drawing.Size(265, 36);
-            this.khu_tl_maleplural.TabIndex = 2;
-            // 
-            // khu_label_maleplural
-            // 
-            this.khu_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_maleplural.AutoSize = true;
-            this.khu_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_maleplural.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_maleplural.Name = "khu_label_maleplural";
-            this.khu_label_maleplural.Size = new System.Drawing.Size(126, 36);
-            this.khu_label_maleplural.TabIndex = 0;
-            this.khu_label_maleplural.Text = "Masculin Pluriel";
-            this.khu_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // khu_textBox_maleplural
-            // 
-            this.khu_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
-            this.khu_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
-            this.khu_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.khu_textBox_maleplural.Name = "khu_textBox_maleplural";
-            this.khu_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
-            this.khu_textBox_maleplural.TabIndex = 1;
-            this.khu_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // khu_tl_male
-            // 
-            this.khu_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tl_male.ColumnCount = 2;
-            this.khu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_male.Controls.Add(this.khu_label_male, 0, 0);
-            this.khu_tl_male.Controls.Add(this.khu_textBox_male, 1, 0);
-            this.khu_tl_male.Location = new System.Drawing.Point(0, 36);
-            this.khu_tl_male.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tl_male.Name = "khu_tl_male";
-            this.khu_tl_male.RowCount = 1;
-            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_male.Size = new System.Drawing.Size(265, 36);
-            this.khu_tl_male.TabIndex = 0;
-            // 
-            // khu_label_male
-            // 
-            this.khu_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_male.AutoSize = true;
-            this.khu_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_male.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_male.Name = "khu_label_male";
-            this.khu_label_male.Size = new System.Drawing.Size(126, 36);
-            this.khu_label_male.TabIndex = 0;
-            this.khu_label_male.Text = "Masculin";
-            this.khu_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // khu_textBox_male
-            // 
-            this.khu_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_textBox_male.BackColor = System.Drawing.SystemColors.Window;
-            this.khu_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_textBox_male.Location = new System.Drawing.Point(132, 5);
-            this.khu_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.khu_textBox_male.Name = "khu_textBox_male";
-            this.khu_textBox_male.Size = new System.Drawing.Size(133, 26);
-            this.khu_textBox_male.TabIndex = 1;
-            this.khu_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // khu_tl_female
-            // 
-            this.khu_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_tl_female.ColumnCount = 2;
-            this.khu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_female.Controls.Add(this.khu_label_female, 0, 0);
-            this.khu_tl_female.Controls.Add(this.khu_textBox_female, 1, 0);
-            this.khu_tl_female.Location = new System.Drawing.Point(0, 72);
-            this.khu_tl_female.Margin = new System.Windows.Forms.Padding(0);
-            this.khu_tl_female.Name = "khu_tl_female";
-            this.khu_tl_female.RowCount = 1;
-            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.khu_tl_female.Size = new System.Drawing.Size(265, 36);
-            this.khu_tl_female.TabIndex = 1;
-            // 
-            // khu_label_female
-            // 
-            this.khu_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_female.AutoSize = true;
-            this.khu_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_female.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_female.Name = "khu_label_female";
-            this.khu_label_female.Size = new System.Drawing.Size(126, 36);
-            this.khu_label_female.TabIndex = 0;
-            this.khu_label_female.Text = "Féminin";
-            this.khu_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // khu_textBox_female
-            // 
-            this.khu_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_textBox_female.BackColor = System.Drawing.SystemColors.Window;
-            this.khu_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_textBox_female.Location = new System.Drawing.Point(132, 5);
-            this.khu_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.khu_textBox_female.Name = "khu_textBox_female";
-            this.khu_textBox_female.Size = new System.Drawing.Size(133, 26);
-            this.khu_textBox_female.TabIndex = 1;
-            this.khu_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // khu_label_title
-            // 
-            this.khu_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.khu_label_title.AutoSize = true;
-            this.khu_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.khu_label_title.Location = new System.Drawing.Point(3, 0);
-            this.khu_label_title.Name = "khu_label_title";
-            this.khu_label_title.Size = new System.Drawing.Size(259, 36);
-            this.khu_label_title.TabIndex = 3;
-            this.khu_label_title.Text = "Khuzaits";
-            this.khu_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.khu_label_title.UseMnemonic = false;
-            // 
             // vla_tableLayout
             // 
             this.vla_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -803,12 +242,12 @@ namespace FrenchTranslation
             this.vla_tableLayout.BackColor = System.Drawing.SystemColors.Control;
             this.vla_tableLayout.ColumnCount = 1;
             this.vla_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.vla_tableLayout.Controls.Add(this.vla_tl_region, 0, 5);
-            this.vla_tableLayout.Controls.Add(this.vla_tl_femaleplural, 0, 4);
-            this.vla_tableLayout.Controls.Add(this.vla_tl_maleplural, 0, 3);
+            this.vla_tableLayout.Controls.Add(this.vla_label_title, 0, 0);
             this.vla_tableLayout.Controls.Add(this.vla_tl_male, 0, 1);
             this.vla_tableLayout.Controls.Add(this.vla_tl_female, 0, 2);
-            this.vla_tableLayout.Controls.Add(this.vla_label_title, 0, 0);
+            this.vla_tableLayout.Controls.Add(this.vla_tl_maleplural, 0, 3);
+            this.vla_tableLayout.Controls.Add(this.vla_tl_femaleplural, 0, 4);
+            this.vla_tableLayout.Controls.Add(this.vla_tl_region, 0, 5);
             this.vla_tableLayout.Location = new System.Drawing.Point(0, 0);
             this.vla_tableLayout.Margin = new System.Windows.Forms.Padding(0);
             this.vla_tableLayout.Name = "vla_tableLayout";
@@ -824,147 +263,19 @@ namespace FrenchTranslation
             this.vla_tableLayout.Size = new System.Drawing.Size(265, 218);
             this.vla_tableLayout.TabIndex = 0;
             // 
-            // vla_tl_region
+            // vla_label_title
             // 
-            this.vla_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_tl_region.ColumnCount = 2;
-            this.vla_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_region.Controls.Add(this.vla_label_region, 0, 0);
-            this.vla_tl_region.Controls.Add(this.vla_textBox_region, 1, 0);
-            this.vla_tl_region.Location = new System.Drawing.Point(0, 180);
-            this.vla_tl_region.Margin = new System.Windows.Forms.Padding(0);
-            this.vla_tl_region.Name = "vla_tl_region";
-            this.vla_tl_region.RowCount = 1;
-            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.vla_tl_region.Size = new System.Drawing.Size(265, 38);
-            this.vla_tl_region.TabIndex = 2;
-            // 
-            // vla_label_region
-            // 
-            this.vla_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_label_region.AutoSize = true;
-            this.vla_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_label_region.Location = new System.Drawing.Point(3, 0);
-            this.vla_label_region.Name = "vla_label_region";
-            this.vla_label_region.Size = new System.Drawing.Size(126, 38);
-            this.vla_label_region.TabIndex = 0;
-            this.vla_label_region.Text = "Région";
-            this.vla_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // vla_textBox_region
-            // 
-            this.vla_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_textBox_region.Location = new System.Drawing.Point(132, 5);
-            this.vla_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.vla_textBox_region.Name = "vla_textBox_region";
-            this.vla_textBox_region.Size = new System.Drawing.Size(133, 26);
-            this.vla_textBox_region.TabIndex = 1;
-            this.vla_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // vla_tl_femaleplural
-            // 
-            this.vla_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_tl_femaleplural.ColumnCount = 2;
-            this.vla_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_femaleplural.Controls.Add(this.vla_label_femaleplural, 0, 0);
-            this.vla_tl_femaleplural.Controls.Add(this.vla_textBox_femaleplural, 1, 0);
-            this.vla_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
-            this.vla_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.vla_tl_femaleplural.Name = "vla_tl_femaleplural";
-            this.vla_tl_femaleplural.RowCount = 1;
-            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.vla_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
-            this.vla_tl_femaleplural.TabIndex = 2;
-            // 
-            // vla_label_femaleplural
-            // 
-            this.vla_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_label_femaleplural.AutoSize = true;
-            this.vla_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_label_femaleplural.Location = new System.Drawing.Point(3, 0);
-            this.vla_label_femaleplural.Name = "vla_label_femaleplural";
-            this.vla_label_femaleplural.Size = new System.Drawing.Size(126, 36);
-            this.vla_label_femaleplural.TabIndex = 0;
-            this.vla_label_femaleplural.Text = "Féminin Pluriel";
-            this.vla_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // vla_textBox_femaleplural
-            // 
-            this.vla_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
-            this.vla_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.vla_textBox_femaleplural.Name = "vla_textBox_femaleplural";
-            this.vla_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
-            this.vla_textBox_femaleplural.TabIndex = 1;
-            this.vla_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // vla_tl_maleplural
-            // 
-            this.vla_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_tl_maleplural.ColumnCount = 2;
-            this.vla_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_maleplural.Controls.Add(this.vla_label_maleplural, 0, 0);
-            this.vla_tl_maleplural.Controls.Add(this.vla_textBox_maleplural, 1, 0);
-            this.vla_tl_maleplural.Location = new System.Drawing.Point(0, 108);
-            this.vla_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.vla_tl_maleplural.Name = "vla_tl_maleplural";
-            this.vla_tl_maleplural.RowCount = 1;
-            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.vla_tl_maleplural.Size = new System.Drawing.Size(265, 36);
-            this.vla_tl_maleplural.TabIndex = 2;
-            // 
-            // vla_label_maleplural
-            // 
-            this.vla_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_label_maleplural.AutoSize = true;
-            this.vla_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_label_maleplural.Location = new System.Drawing.Point(3, 0);
-            this.vla_label_maleplural.Name = "vla_label_maleplural";
-            this.vla_label_maleplural.Size = new System.Drawing.Size(126, 36);
-            this.vla_label_maleplural.TabIndex = 0;
-            this.vla_label_maleplural.Text = "Masculin Pluriel";
-            this.vla_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // vla_textBox_maleplural
-            // 
-            this.vla_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
-            this.vla_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
-            this.vla_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.vla_textBox_maleplural.Name = "vla_textBox_maleplural";
-            this.vla_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
-            this.vla_textBox_maleplural.TabIndex = 1;
-            this.vla_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vla_label_title.AutoSize = true;
+            this.vla_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_label_title.Location = new System.Drawing.Point(3, 0);
+            this.vla_label_title.Name = "vla_label_title";
+            this.vla_label_title.Size = new System.Drawing.Size(259, 36);
+            this.vla_label_title.TabIndex = 0;
+            this.vla_label_title.Text = "Vlandians";
+            this.vla_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // vla_tl_male
             // 
@@ -1062,301 +373,147 @@ namespace FrenchTranslation
             this.vla_textBox_female.TabIndex = 1;
             this.vla_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // vla_label_title
+            // vla_tl_maleplural
             // 
-            this.vla_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.vla_label_title.AutoSize = true;
-            this.vla_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vla_label_title.Location = new System.Drawing.Point(3, 0);
-            this.vla_label_title.Name = "vla_label_title";
-            this.vla_label_title.Size = new System.Drawing.Size(259, 36);
-            this.vla_label_title.TabIndex = 3;
-            this.vla_label_title.Text = "Vlandians";
-            this.vla_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.vla_tl_maleplural.ColumnCount = 2;
+            this.vla_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_maleplural.Controls.Add(this.vla_label_maleplural, 0, 0);
+            this.vla_tl_maleplural.Controls.Add(this.vla_textBox_maleplural, 1, 0);
+            this.vla_tl_maleplural.Location = new System.Drawing.Point(0, 108);
+            this.vla_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.vla_tl_maleplural.Name = "vla_tl_maleplural";
+            this.vla_tl_maleplural.RowCount = 1;
+            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.vla_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.vla_tl_maleplural.Size = new System.Drawing.Size(265, 36);
+            this.vla_tl_maleplural.TabIndex = 2;
             // 
-            // stu_tableLayout
+            // vla_label_maleplural
             // 
-            this.stu_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tableLayout.BackColor = System.Drawing.SystemColors.Control;
-            this.stu_tableLayout.ColumnCount = 1;
-            this.stu_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.stu_tableLayout.Controls.Add(this.stu_tl_region, 0, 5);
-            this.stu_tableLayout.Controls.Add(this.stu_tl_femaleplural, 0, 4);
-            this.stu_tableLayout.Controls.Add(this.stu_tl_maleplural, 0, 3);
-            this.stu_tableLayout.Controls.Add(this.stu_tl_male, 0, 1);
-            this.stu_tableLayout.Controls.Add(this.stu_tl_female, 0, 2);
-            this.stu_tableLayout.Controls.Add(this.stu_label_title, 0, 0);
-            this.stu_tableLayout.Location = new System.Drawing.Point(265, 0);
-            this.stu_tableLayout.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tableLayout.Name = "stu_tableLayout";
-            this.stu_tableLayout.RowCount = 6;
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.stu_tableLayout.Size = new System.Drawing.Size(265, 218);
-            this.stu_tableLayout.TabIndex = 2;
+            this.vla_label_maleplural.AutoSize = true;
+            this.vla_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_label_maleplural.Location = new System.Drawing.Point(3, 0);
+            this.vla_label_maleplural.Name = "vla_label_maleplural";
+            this.vla_label_maleplural.Size = new System.Drawing.Size(126, 36);
+            this.vla_label_maleplural.TabIndex = 0;
+            this.vla_label_maleplural.Text = "Masculin Pluriel";
+            this.vla_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // stu_tl_region
+            // vla_textBox_maleplural
             // 
-            this.stu_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tl_region.ColumnCount = 2;
-            this.stu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_region.Controls.Add(this.stu_label_region, 0, 0);
-            this.stu_tl_region.Controls.Add(this.stu_textBox_region, 1, 0);
-            this.stu_tl_region.Location = new System.Drawing.Point(0, 180);
-            this.stu_tl_region.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tl_region.Name = "stu_tl_region";
-            this.stu_tl_region.RowCount = 1;
-            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.stu_tl_region.Size = new System.Drawing.Size(265, 38);
-            this.stu_tl_region.TabIndex = 2;
+            this.vla_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
+            this.vla_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
+            this.vla_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.vla_textBox_maleplural.Name = "vla_textBox_maleplural";
+            this.vla_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
+            this.vla_textBox_maleplural.TabIndex = 1;
+            this.vla_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // stu_label_region
+            // vla_tl_femaleplural
             // 
-            this.stu_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_region.AutoSize = true;
-            this.stu_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_region.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_region.Name = "stu_label_region";
-            this.stu_label_region.Size = new System.Drawing.Size(126, 38);
-            this.stu_label_region.TabIndex = 0;
-            this.stu_label_region.Text = "Région";
-            this.stu_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.vla_tl_femaleplural.ColumnCount = 2;
+            this.vla_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_femaleplural.Controls.Add(this.vla_label_femaleplural, 0, 0);
+            this.vla_tl_femaleplural.Controls.Add(this.vla_textBox_femaleplural, 1, 0);
+            this.vla_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
+            this.vla_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.vla_tl_femaleplural.Name = "vla_tl_femaleplural";
+            this.vla_tl_femaleplural.RowCount = 1;
+            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.vla_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.vla_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
+            this.vla_tl_femaleplural.TabIndex = 3;
             // 
-            // stu_textBox_region
+            // vla_label_femaleplural
             // 
-            this.stu_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_textBox_region.Location = new System.Drawing.Point(132, 5);
-            this.stu_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.stu_textBox_region.Name = "stu_textBox_region";
-            this.stu_textBox_region.Size = new System.Drawing.Size(133, 26);
-            this.stu_textBox_region.TabIndex = 1;
-            this.stu_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vla_label_femaleplural.AutoSize = true;
+            this.vla_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_label_femaleplural.Location = new System.Drawing.Point(3, 0);
+            this.vla_label_femaleplural.Name = "vla_label_femaleplural";
+            this.vla_label_femaleplural.Size = new System.Drawing.Size(126, 36);
+            this.vla_label_femaleplural.TabIndex = 0;
+            this.vla_label_femaleplural.Text = "Féminin Pluriel";
+            this.vla_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // stu_tl_femaleplural
+            // vla_textBox_femaleplural
             // 
-            this.stu_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tl_femaleplural.ColumnCount = 2;
-            this.stu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_femaleplural.Controls.Add(this.stu_label_femaleplural, 0, 0);
-            this.stu_tl_femaleplural.Controls.Add(this.stu_textBox_femaleplural, 1, 0);
-            this.stu_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
-            this.stu_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tl_femaleplural.Name = "stu_tl_femaleplural";
-            this.stu_tl_femaleplural.RowCount = 1;
-            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
-            this.stu_tl_femaleplural.TabIndex = 2;
+            this.vla_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
+            this.vla_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.vla_textBox_femaleplural.Name = "vla_textBox_femaleplural";
+            this.vla_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
+            this.vla_textBox_femaleplural.TabIndex = 1;
+            this.vla_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // stu_label_femaleplural
+            // vla_tl_region
             // 
-            this.stu_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_femaleplural.AutoSize = true;
-            this.stu_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_femaleplural.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_femaleplural.Name = "stu_label_femaleplural";
-            this.stu_label_femaleplural.Size = new System.Drawing.Size(126, 36);
-            this.stu_label_femaleplural.TabIndex = 0;
-            this.stu_label_femaleplural.Text = "Féminin Pluriel";
-            this.stu_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.vla_tl_region.ColumnCount = 2;
+            this.vla_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_region.Controls.Add(this.vla_label_region, 0, 0);
+            this.vla_tl_region.Controls.Add(this.vla_textBox_region, 1, 0);
+            this.vla_tl_region.Location = new System.Drawing.Point(0, 180);
+            this.vla_tl_region.Margin = new System.Windows.Forms.Padding(0);
+            this.vla_tl_region.Name = "vla_tl_region";
+            this.vla_tl_region.RowCount = 1;
+            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.vla_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.vla_tl_region.Size = new System.Drawing.Size(265, 38);
+            this.vla_tl_region.TabIndex = 4;
             // 
-            // stu_textBox_femaleplural
+            // vla_label_region
             // 
-            this.stu_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
-            this.stu_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.stu_textBox_femaleplural.Name = "stu_textBox_femaleplural";
-            this.stu_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
-            this.stu_textBox_femaleplural.TabIndex = 1;
-            this.stu_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vla_label_region.AutoSize = true;
+            this.vla_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_label_region.Location = new System.Drawing.Point(3, 0);
+            this.vla_label_region.Name = "vla_label_region";
+            this.vla_label_region.Size = new System.Drawing.Size(126, 38);
+            this.vla_label_region.TabIndex = 0;
+            this.vla_label_region.Text = "Région";
+            this.vla_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // stu_tl_maleplural
+            // vla_textBox_region
             // 
-            this.stu_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vla_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tl_maleplural.ColumnCount = 2;
-            this.stu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_maleplural.Controls.Add(this.stu_label_maleplural, 0, 0);
-            this.stu_tl_maleplural.Controls.Add(this.stu_textBox_maleplural, 1, 0);
-            this.stu_tl_maleplural.Location = new System.Drawing.Point(0, 108);
-            this.stu_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tl_maleplural.Name = "stu_tl_maleplural";
-            this.stu_tl_maleplural.RowCount = 1;
-            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_maleplural.Size = new System.Drawing.Size(265, 36);
-            this.stu_tl_maleplural.TabIndex = 2;
-            // 
-            // stu_label_maleplural
-            // 
-            this.stu_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_maleplural.AutoSize = true;
-            this.stu_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_maleplural.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_maleplural.Name = "stu_label_maleplural";
-            this.stu_label_maleplural.Size = new System.Drawing.Size(126, 36);
-            this.stu_label_maleplural.TabIndex = 0;
-            this.stu_label_maleplural.Text = "Masculin Pluriel";
-            this.stu_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // stu_textBox_maleplural
-            // 
-            this.stu_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
-            this.stu_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
-            this.stu_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.stu_textBox_maleplural.Name = "stu_textBox_maleplural";
-            this.stu_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
-            this.stu_textBox_maleplural.TabIndex = 1;
-            this.stu_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // stu_tl_male
-            // 
-            this.stu_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tl_male.ColumnCount = 2;
-            this.stu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_male.Controls.Add(this.stu_label_male, 0, 0);
-            this.stu_tl_male.Controls.Add(this.stu_textBox_male, 1, 0);
-            this.stu_tl_male.Location = new System.Drawing.Point(0, 36);
-            this.stu_tl_male.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tl_male.Name = "stu_tl_male";
-            this.stu_tl_male.RowCount = 1;
-            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_male.Size = new System.Drawing.Size(265, 36);
-            this.stu_tl_male.TabIndex = 0;
-            // 
-            // stu_label_male
-            // 
-            this.stu_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_male.AutoSize = true;
-            this.stu_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_male.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_male.Name = "stu_label_male";
-            this.stu_label_male.Size = new System.Drawing.Size(126, 36);
-            this.stu_label_male.TabIndex = 0;
-            this.stu_label_male.Text = "Masculin";
-            this.stu_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // stu_textBox_male
-            // 
-            this.stu_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_textBox_male.BackColor = System.Drawing.SystemColors.Window;
-            this.stu_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_textBox_male.Location = new System.Drawing.Point(132, 5);
-            this.stu_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.stu_textBox_male.Name = "stu_textBox_male";
-            this.stu_textBox_male.Size = new System.Drawing.Size(133, 26);
-            this.stu_textBox_male.TabIndex = 1;
-            this.stu_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // stu_tl_female
-            // 
-            this.stu_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_tl_female.ColumnCount = 2;
-            this.stu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_female.Controls.Add(this.stu_label_female, 0, 0);
-            this.stu_tl_female.Controls.Add(this.stu_textBox_female, 1, 0);
-            this.stu_tl_female.Location = new System.Drawing.Point(0, 72);
-            this.stu_tl_female.Margin = new System.Windows.Forms.Padding(0);
-            this.stu_tl_female.Name = "stu_tl_female";
-            this.stu_tl_female.RowCount = 1;
-            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.stu_tl_female.Size = new System.Drawing.Size(265, 36);
-            this.stu_tl_female.TabIndex = 1;
-            // 
-            // stu_label_female
-            // 
-            this.stu_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_female.AutoSize = true;
-            this.stu_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_female.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_female.Name = "stu_label_female";
-            this.stu_label_female.Size = new System.Drawing.Size(126, 36);
-            this.stu_label_female.TabIndex = 0;
-            this.stu_label_female.Text = "Féminin";
-            this.stu_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // stu_textBox_female
-            // 
-            this.stu_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_textBox_female.BackColor = System.Drawing.SystemColors.Window;
-            this.stu_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_textBox_female.Location = new System.Drawing.Point(132, 5);
-            this.stu_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.stu_textBox_female.Name = "stu_textBox_female";
-            this.stu_textBox_female.Size = new System.Drawing.Size(133, 26);
-            this.stu_textBox_female.TabIndex = 1;
-            this.stu_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // stu_label_title
-            // 
-            this.stu_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.stu_label_title.AutoSize = true;
-            this.stu_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stu_label_title.Location = new System.Drawing.Point(3, 0);
-            this.stu_label_title.Name = "stu_label_title";
-            this.stu_label_title.Size = new System.Drawing.Size(259, 36);
-            this.stu_label_title.TabIndex = 3;
-            this.stu_label_title.Text = "Sturgians";
-            this.stu_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.stu_label_title.UseMnemonic = false;
+            this.vla_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vla_textBox_region.Location = new System.Drawing.Point(132, 5);
+            this.vla_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.vla_textBox_region.Name = "vla_textBox_region";
+            this.vla_textBox_region.Size = new System.Drawing.Size(133, 26);
+            this.vla_textBox_region.TabIndex = 1;
+            this.vla_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ase_tableLayout
             // 
@@ -1405,7 +562,7 @@ namespace FrenchTranslation
             this.ase_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.ase_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.ase_tl_region.Size = new System.Drawing.Size(265, 38);
-            this.ase_tl_region.TabIndex = 2;
+            this.ase_tl_region.TabIndex = 4;
             // 
             // ase_label_region
             // 
@@ -1452,7 +609,7 @@ namespace FrenchTranslation
             this.ase_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.ase_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.ase_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
-            this.ase_tl_femaleplural.TabIndex = 2;
+            this.ase_tl_femaleplural.TabIndex = 3;
             // 
             // ase_label_femaleplural
             // 
@@ -1635,9 +792,855 @@ namespace FrenchTranslation
             this.ase_label_title.Location = new System.Drawing.Point(3, 0);
             this.ase_label_title.Name = "ase_label_title";
             this.ase_label_title.Size = new System.Drawing.Size(259, 36);
-            this.ase_label_title.TabIndex = 3;
+            this.ase_label_title.TabIndex = 0;
             this.ase_label_title.Text = "Aserai";
             this.ase_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_tableLayout
+            // 
+            this.stu_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tableLayout.BackColor = System.Drawing.SystemColors.Control;
+            this.stu_tableLayout.ColumnCount = 1;
+            this.stu_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.stu_tableLayout.Controls.Add(this.stu_tl_region, 0, 5);
+            this.stu_tableLayout.Controls.Add(this.stu_tl_femaleplural, 0, 4);
+            this.stu_tableLayout.Controls.Add(this.stu_tl_maleplural, 0, 3);
+            this.stu_tableLayout.Controls.Add(this.stu_tl_male, 0, 1);
+            this.stu_tableLayout.Controls.Add(this.stu_tl_female, 0, 2);
+            this.stu_tableLayout.Controls.Add(this.stu_label_title, 0, 0);
+            this.stu_tableLayout.Location = new System.Drawing.Point(265, 0);
+            this.stu_tableLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tableLayout.Name = "stu_tableLayout";
+            this.stu_tableLayout.RowCount = 6;
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.stu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.stu_tableLayout.Size = new System.Drawing.Size(265, 218);
+            this.stu_tableLayout.TabIndex = 2;
+            // 
+            // stu_tl_region
+            // 
+            this.stu_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tl_region.ColumnCount = 2;
+            this.stu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_region.Controls.Add(this.stu_label_region, 0, 0);
+            this.stu_tl_region.Controls.Add(this.stu_textBox_region, 1, 0);
+            this.stu_tl_region.Location = new System.Drawing.Point(0, 180);
+            this.stu_tl_region.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tl_region.Name = "stu_tl_region";
+            this.stu_tl_region.RowCount = 1;
+            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.stu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.stu_tl_region.Size = new System.Drawing.Size(265, 38);
+            this.stu_tl_region.TabIndex = 4;
+            // 
+            // stu_label_region
+            // 
+            this.stu_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_region.AutoSize = true;
+            this.stu_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_region.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_region.Name = "stu_label_region";
+            this.stu_label_region.Size = new System.Drawing.Size(126, 38);
+            this.stu_label_region.TabIndex = 1;
+            this.stu_label_region.Text = "Région";
+            this.stu_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_textBox_region
+            // 
+            this.stu_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_textBox_region.Location = new System.Drawing.Point(132, 5);
+            this.stu_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.stu_textBox_region.Name = "stu_textBox_region";
+            this.stu_textBox_region.Size = new System.Drawing.Size(133, 26);
+            this.stu_textBox_region.TabIndex = 1;
+            this.stu_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // stu_tl_femaleplural
+            // 
+            this.stu_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tl_femaleplural.ColumnCount = 2;
+            this.stu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_femaleplural.Controls.Add(this.stu_label_femaleplural, 0, 0);
+            this.stu_tl_femaleplural.Controls.Add(this.stu_textBox_femaleplural, 1, 0);
+            this.stu_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
+            this.stu_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tl_femaleplural.Name = "stu_tl_femaleplural";
+            this.stu_tl_femaleplural.RowCount = 1;
+            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
+            this.stu_tl_femaleplural.TabIndex = 3;
+            // 
+            // stu_label_femaleplural
+            // 
+            this.stu_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_femaleplural.AutoSize = true;
+            this.stu_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_femaleplural.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_femaleplural.Name = "stu_label_femaleplural";
+            this.stu_label_femaleplural.Size = new System.Drawing.Size(126, 36);
+            this.stu_label_femaleplural.TabIndex = 0;
+            this.stu_label_femaleplural.Text = "Féminin Pluriel";
+            this.stu_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_textBox_femaleplural
+            // 
+            this.stu_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
+            this.stu_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.stu_textBox_femaleplural.Name = "stu_textBox_femaleplural";
+            this.stu_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
+            this.stu_textBox_femaleplural.TabIndex = 1;
+            this.stu_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // stu_tl_maleplural
+            // 
+            this.stu_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tl_maleplural.ColumnCount = 2;
+            this.stu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_maleplural.Controls.Add(this.stu_label_maleplural, 0, 0);
+            this.stu_tl_maleplural.Controls.Add(this.stu_textBox_maleplural, 1, 0);
+            this.stu_tl_maleplural.Location = new System.Drawing.Point(0, 108);
+            this.stu_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tl_maleplural.Name = "stu_tl_maleplural";
+            this.stu_tl_maleplural.RowCount = 1;
+            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_maleplural.Size = new System.Drawing.Size(265, 36);
+            this.stu_tl_maleplural.TabIndex = 2;
+            // 
+            // stu_label_maleplural
+            // 
+            this.stu_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_maleplural.AutoSize = true;
+            this.stu_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_maleplural.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_maleplural.Name = "stu_label_maleplural";
+            this.stu_label_maleplural.Size = new System.Drawing.Size(126, 36);
+            this.stu_label_maleplural.TabIndex = 0;
+            this.stu_label_maleplural.Text = "Masculin Pluriel";
+            this.stu_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_textBox_maleplural
+            // 
+            this.stu_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
+            this.stu_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
+            this.stu_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.stu_textBox_maleplural.Name = "stu_textBox_maleplural";
+            this.stu_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
+            this.stu_textBox_maleplural.TabIndex = 1;
+            this.stu_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // stu_tl_male
+            // 
+            this.stu_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tl_male.ColumnCount = 2;
+            this.stu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_male.Controls.Add(this.stu_label_male, 0, 0);
+            this.stu_tl_male.Controls.Add(this.stu_textBox_male, 1, 0);
+            this.stu_tl_male.Location = new System.Drawing.Point(0, 36);
+            this.stu_tl_male.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tl_male.Name = "stu_tl_male";
+            this.stu_tl_male.RowCount = 1;
+            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_male.Size = new System.Drawing.Size(265, 36);
+            this.stu_tl_male.TabIndex = 0;
+            // 
+            // stu_label_male
+            // 
+            this.stu_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_male.AutoSize = true;
+            this.stu_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_male.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_male.Name = "stu_label_male";
+            this.stu_label_male.Size = new System.Drawing.Size(126, 36);
+            this.stu_label_male.TabIndex = 0;
+            this.stu_label_male.Text = "Masculin";
+            this.stu_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_textBox_male
+            // 
+            this.stu_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_textBox_male.BackColor = System.Drawing.SystemColors.Window;
+            this.stu_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_textBox_male.Location = new System.Drawing.Point(132, 5);
+            this.stu_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.stu_textBox_male.Name = "stu_textBox_male";
+            this.stu_textBox_male.Size = new System.Drawing.Size(133, 26);
+            this.stu_textBox_male.TabIndex = 1;
+            this.stu_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // stu_tl_female
+            // 
+            this.stu_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_tl_female.ColumnCount = 2;
+            this.stu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_female.Controls.Add(this.stu_label_female, 0, 0);
+            this.stu_tl_female.Controls.Add(this.stu_textBox_female, 1, 0);
+            this.stu_tl_female.Location = new System.Drawing.Point(0, 72);
+            this.stu_tl_female.Margin = new System.Windows.Forms.Padding(0);
+            this.stu_tl_female.Name = "stu_tl_female";
+            this.stu_tl_female.RowCount = 1;
+            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.stu_tl_female.Size = new System.Drawing.Size(265, 36);
+            this.stu_tl_female.TabIndex = 1;
+            // 
+            // stu_label_female
+            // 
+            this.stu_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_female.AutoSize = true;
+            this.stu_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_female.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_female.Name = "stu_label_female";
+            this.stu_label_female.Size = new System.Drawing.Size(126, 36);
+            this.stu_label_female.TabIndex = 0;
+            this.stu_label_female.Text = "Féminin";
+            this.stu_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // stu_textBox_female
+            // 
+            this.stu_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_textBox_female.BackColor = System.Drawing.SystemColors.Window;
+            this.stu_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_textBox_female.Location = new System.Drawing.Point(132, 5);
+            this.stu_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.stu_textBox_female.Name = "stu_textBox_female";
+            this.stu_textBox_female.Size = new System.Drawing.Size(133, 26);
+            this.stu_textBox_female.TabIndex = 1;
+            this.stu_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // stu_label_title
+            // 
+            this.stu_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stu_label_title.AutoSize = true;
+            this.stu_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stu_label_title.Location = new System.Drawing.Point(3, 0);
+            this.stu_label_title.Name = "stu_label_title";
+            this.stu_label_title.Size = new System.Drawing.Size(259, 36);
+            this.stu_label_title.TabIndex = 0;
+            this.stu_label_title.Text = "Sturgians";
+            this.stu_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.stu_label_title.UseMnemonic = false;
+            // 
+            // khu_tableLayout
+            // 
+            this.khu_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tableLayout.BackColor = System.Drawing.SystemColors.Control;
+            this.khu_tableLayout.ColumnCount = 1;
+            this.khu_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.khu_tableLayout.Controls.Add(this.khu_tl_region, 0, 5);
+            this.khu_tableLayout.Controls.Add(this.khu_tl_femaleplural, 0, 4);
+            this.khu_tableLayout.Controls.Add(this.khu_tl_maleplural, 0, 3);
+            this.khu_tableLayout.Controls.Add(this.khu_tl_male, 0, 1);
+            this.khu_tableLayout.Controls.Add(this.khu_tl_female, 0, 2);
+            this.khu_tableLayout.Controls.Add(this.khu_label_title, 0, 0);
+            this.khu_tableLayout.Location = new System.Drawing.Point(265, 218);
+            this.khu_tableLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tableLayout.Name = "khu_tableLayout";
+            this.khu_tableLayout.RowCount = 6;
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.khu_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.khu_tableLayout.Size = new System.Drawing.Size(265, 218);
+            this.khu_tableLayout.TabIndex = 3;
+            // 
+            // khu_tl_region
+            // 
+            this.khu_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tl_region.ColumnCount = 2;
+            this.khu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_region.Controls.Add(this.khu_label_region, 0, 0);
+            this.khu_tl_region.Controls.Add(this.khu_textBox_region, 1, 0);
+            this.khu_tl_region.Location = new System.Drawing.Point(0, 180);
+            this.khu_tl_region.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tl_region.Name = "khu_tl_region";
+            this.khu_tl_region.RowCount = 1;
+            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.khu_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.khu_tl_region.Size = new System.Drawing.Size(265, 38);
+            this.khu_tl_region.TabIndex = 4;
+            // 
+            // khu_label_region
+            // 
+            this.khu_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_region.AutoSize = true;
+            this.khu_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_region.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_region.Name = "khu_label_region";
+            this.khu_label_region.Size = new System.Drawing.Size(126, 38);
+            this.khu_label_region.TabIndex = 0;
+            this.khu_label_region.Text = "Région";
+            this.khu_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // khu_textBox_region
+            // 
+            this.khu_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_textBox_region.Location = new System.Drawing.Point(132, 5);
+            this.khu_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.khu_textBox_region.Name = "khu_textBox_region";
+            this.khu_textBox_region.Size = new System.Drawing.Size(133, 26);
+            this.khu_textBox_region.TabIndex = 1;
+            this.khu_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // khu_tl_femaleplural
+            // 
+            this.khu_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tl_femaleplural.ColumnCount = 2;
+            this.khu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_femaleplural.Controls.Add(this.khu_label_femaleplural, 0, 0);
+            this.khu_tl_femaleplural.Controls.Add(this.khu_textBox_femaleplural, 1, 0);
+            this.khu_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
+            this.khu_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tl_femaleplural.Name = "khu_tl_femaleplural";
+            this.khu_tl_femaleplural.RowCount = 1;
+            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_femaleplural.Size = new System.Drawing.Size(265, 36);
+            this.khu_tl_femaleplural.TabIndex = 3;
+            // 
+            // khu_label_femaleplural
+            // 
+            this.khu_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_femaleplural.AutoSize = true;
+            this.khu_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_femaleplural.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_femaleplural.Name = "khu_label_femaleplural";
+            this.khu_label_femaleplural.Size = new System.Drawing.Size(126, 36);
+            this.khu_label_femaleplural.TabIndex = 0;
+            this.khu_label_femaleplural.Text = "Féminin Pluriel";
+            this.khu_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // khu_textBox_femaleplural
+            // 
+            this.khu_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_textBox_femaleplural.Location = new System.Drawing.Point(132, 5);
+            this.khu_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.khu_textBox_femaleplural.Name = "khu_textBox_femaleplural";
+            this.khu_textBox_femaleplural.Size = new System.Drawing.Size(133, 26);
+            this.khu_textBox_femaleplural.TabIndex = 1;
+            this.khu_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // khu_tl_maleplural
+            // 
+            this.khu_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tl_maleplural.ColumnCount = 2;
+            this.khu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_maleplural.Controls.Add(this.khu_label_maleplural, 0, 0);
+            this.khu_tl_maleplural.Controls.Add(this.khu_textBox_maleplural, 1, 0);
+            this.khu_tl_maleplural.Location = new System.Drawing.Point(0, 108);
+            this.khu_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tl_maleplural.Name = "khu_tl_maleplural";
+            this.khu_tl_maleplural.RowCount = 1;
+            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_maleplural.Size = new System.Drawing.Size(265, 36);
+            this.khu_tl_maleplural.TabIndex = 2;
+            // 
+            // khu_label_maleplural
+            // 
+            this.khu_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_maleplural.AutoSize = true;
+            this.khu_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_maleplural.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_maleplural.Name = "khu_label_maleplural";
+            this.khu_label_maleplural.Size = new System.Drawing.Size(126, 36);
+            this.khu_label_maleplural.TabIndex = 0;
+            this.khu_label_maleplural.Text = "Masculin Pluriel";
+            this.khu_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // khu_textBox_maleplural
+            // 
+            this.khu_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
+            this.khu_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_textBox_maleplural.Location = new System.Drawing.Point(132, 5);
+            this.khu_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.khu_textBox_maleplural.Name = "khu_textBox_maleplural";
+            this.khu_textBox_maleplural.Size = new System.Drawing.Size(133, 26);
+            this.khu_textBox_maleplural.TabIndex = 1;
+            this.khu_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // khu_tl_male
+            // 
+            this.khu_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tl_male.ColumnCount = 2;
+            this.khu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_male.Controls.Add(this.khu_label_male, 0, 0);
+            this.khu_tl_male.Controls.Add(this.khu_textBox_male, 1, 0);
+            this.khu_tl_male.Location = new System.Drawing.Point(0, 36);
+            this.khu_tl_male.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tl_male.Name = "khu_tl_male";
+            this.khu_tl_male.RowCount = 1;
+            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_male.Size = new System.Drawing.Size(265, 36);
+            this.khu_tl_male.TabIndex = 0;
+            // 
+            // khu_label_male
+            // 
+            this.khu_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_male.AutoSize = true;
+            this.khu_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_male.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_male.Name = "khu_label_male";
+            this.khu_label_male.Size = new System.Drawing.Size(126, 36);
+            this.khu_label_male.TabIndex = 0;
+            this.khu_label_male.Text = "Masculin";
+            this.khu_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // khu_textBox_male
+            // 
+            this.khu_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_textBox_male.BackColor = System.Drawing.SystemColors.Window;
+            this.khu_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_textBox_male.Location = new System.Drawing.Point(132, 5);
+            this.khu_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.khu_textBox_male.Name = "khu_textBox_male";
+            this.khu_textBox_male.Size = new System.Drawing.Size(133, 26);
+            this.khu_textBox_male.TabIndex = 1;
+            this.khu_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // khu_tl_female
+            // 
+            this.khu_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_tl_female.ColumnCount = 2;
+            this.khu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_female.Controls.Add(this.khu_label_female, 0, 0);
+            this.khu_tl_female.Controls.Add(this.khu_textBox_female, 1, 0);
+            this.khu_tl_female.Location = new System.Drawing.Point(0, 72);
+            this.khu_tl_female.Margin = new System.Windows.Forms.Padding(0);
+            this.khu_tl_female.Name = "khu_tl_female";
+            this.khu_tl_female.RowCount = 1;
+            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.khu_tl_female.Size = new System.Drawing.Size(265, 36);
+            this.khu_tl_female.TabIndex = 1;
+            // 
+            // khu_label_female
+            // 
+            this.khu_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_female.AutoSize = true;
+            this.khu_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_female.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_female.Name = "khu_label_female";
+            this.khu_label_female.Size = new System.Drawing.Size(126, 36);
+            this.khu_label_female.TabIndex = 0;
+            this.khu_label_female.Text = "Féminin";
+            this.khu_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // khu_textBox_female
+            // 
+            this.khu_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_textBox_female.BackColor = System.Drawing.SystemColors.Window;
+            this.khu_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_textBox_female.Location = new System.Drawing.Point(132, 5);
+            this.khu_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.khu_textBox_female.Name = "khu_textBox_female";
+            this.khu_textBox_female.Size = new System.Drawing.Size(133, 26);
+            this.khu_textBox_female.TabIndex = 1;
+            this.khu_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // khu_label_title
+            // 
+            this.khu_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.khu_label_title.AutoSize = true;
+            this.khu_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.khu_label_title.Location = new System.Drawing.Point(3, 0);
+            this.khu_label_title.Name = "khu_label_title";
+            this.khu_label_title.Size = new System.Drawing.Size(259, 36);
+            this.khu_label_title.TabIndex = 0;
+            this.khu_label_title.Text = "Khuzaits";
+            this.khu_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.khu_label_title.UseMnemonic = false;
+            // 
+            // emp_tableLayout
+            // 
+            this.emp_tableLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tableLayout.BackColor = System.Drawing.SystemColors.Control;
+            this.emp_tableLayout.ColumnCount = 1;
+            this.emp_tableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.emp_tableLayout.Controls.Add(this.emp_tl_region, 0, 5);
+            this.emp_tableLayout.Controls.Add(this.emp_tl_femaleplural, 0, 4);
+            this.emp_tableLayout.Controls.Add(this.emp_tl_maleplural, 0, 3);
+            this.emp_tableLayout.Controls.Add(this.emp_tl_male, 0, 1);
+            this.emp_tableLayout.Controls.Add(this.emp_tl_female, 0, 2);
+            this.emp_tableLayout.Controls.Add(this.emp_label_title, 0, 0);
+            this.emp_tableLayout.Location = new System.Drawing.Point(530, 0);
+            this.emp_tableLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tableLayout.Name = "emp_tableLayout";
+            this.emp_tableLayout.RowCount = 6;
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.emp_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.emp_tableLayout.Size = new System.Drawing.Size(267, 218);
+            this.emp_tableLayout.TabIndex = 4;
+            // 
+            // emp_tl_region
+            // 
+            this.emp_tl_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tl_region.ColumnCount = 2;
+            this.emp_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_region.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_region.Controls.Add(this.emp_label_region, 0, 0);
+            this.emp_tl_region.Controls.Add(this.emp_textBox_region, 1, 0);
+            this.emp_tl_region.Location = new System.Drawing.Point(0, 180);
+            this.emp_tl_region.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tl_region.Name = "emp_tl_region";
+            this.emp_tl_region.RowCount = 1;
+            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.emp_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.emp_tl_region.Size = new System.Drawing.Size(267, 38);
+            this.emp_tl_region.TabIndex = 4;
+            // 
+            // emp_label_region
+            // 
+            this.emp_label_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_region.AutoSize = true;
+            this.emp_label_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_region.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_region.Name = "emp_label_region";
+            this.emp_label_region.Size = new System.Drawing.Size(127, 38);
+            this.emp_label_region.TabIndex = 0;
+            this.emp_label_region.Text = "Région";
+            this.emp_label_region.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emp_textBox_region
+            // 
+            this.emp_textBox_region.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_textBox_region.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_textBox_region.Location = new System.Drawing.Point(133, 5);
+            this.emp_textBox_region.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.emp_textBox_region.Name = "emp_textBox_region";
+            this.emp_textBox_region.Size = new System.Drawing.Size(134, 26);
+            this.emp_textBox_region.TabIndex = 1;
+            this.emp_textBox_region.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // emp_tl_femaleplural
+            // 
+            this.emp_tl_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tl_femaleplural.ColumnCount = 2;
+            this.emp_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_femaleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_femaleplural.Controls.Add(this.emp_label_femaleplural, 0, 0);
+            this.emp_tl_femaleplural.Controls.Add(this.emp_textBox_femaleplural, 1, 0);
+            this.emp_tl_femaleplural.Location = new System.Drawing.Point(0, 144);
+            this.emp_tl_femaleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tl_femaleplural.Name = "emp_tl_femaleplural";
+            this.emp_tl_femaleplural.RowCount = 1;
+            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_femaleplural.Size = new System.Drawing.Size(267, 36);
+            this.emp_tl_femaleplural.TabIndex = 3;
+            // 
+            // emp_label_femaleplural
+            // 
+            this.emp_label_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_femaleplural.AutoSize = true;
+            this.emp_label_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_femaleplural.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_femaleplural.Name = "emp_label_femaleplural";
+            this.emp_label_femaleplural.Size = new System.Drawing.Size(127, 36);
+            this.emp_label_femaleplural.TabIndex = 0;
+            this.emp_label_femaleplural.Text = "Féminin Pluriel";
+            this.emp_label_femaleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emp_textBox_femaleplural
+            // 
+            this.emp_textBox_femaleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_textBox_femaleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_textBox_femaleplural.Location = new System.Drawing.Point(133, 5);
+            this.emp_textBox_femaleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.emp_textBox_femaleplural.Name = "emp_textBox_femaleplural";
+            this.emp_textBox_femaleplural.Size = new System.Drawing.Size(134, 26);
+            this.emp_textBox_femaleplural.TabIndex = 1;
+            this.emp_textBox_femaleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // emp_tl_maleplural
+            // 
+            this.emp_tl_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tl_maleplural.ColumnCount = 2;
+            this.emp_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_maleplural.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_maleplural.Controls.Add(this.emp_label_maleplural, 0, 0);
+            this.emp_tl_maleplural.Controls.Add(this.emp_textBox_maleplural, 1, 0);
+            this.emp_tl_maleplural.Location = new System.Drawing.Point(0, 108);
+            this.emp_tl_maleplural.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tl_maleplural.Name = "emp_tl_maleplural";
+            this.emp_tl_maleplural.RowCount = 1;
+            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_maleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_maleplural.Size = new System.Drawing.Size(267, 36);
+            this.emp_tl_maleplural.TabIndex = 2;
+            // 
+            // emp_label_maleplural
+            // 
+            this.emp_label_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_maleplural.AutoSize = true;
+            this.emp_label_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_maleplural.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_maleplural.Name = "emp_label_maleplural";
+            this.emp_label_maleplural.Size = new System.Drawing.Size(127, 36);
+            this.emp_label_maleplural.TabIndex = 0;
+            this.emp_label_maleplural.Text = "Masculin Pluriel";
+            this.emp_label_maleplural.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emp_textBox_maleplural
+            // 
+            this.emp_textBox_maleplural.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_textBox_maleplural.BackColor = System.Drawing.SystemColors.Window;
+            this.emp_textBox_maleplural.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_textBox_maleplural.Location = new System.Drawing.Point(133, 5);
+            this.emp_textBox_maleplural.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.emp_textBox_maleplural.Name = "emp_textBox_maleplural";
+            this.emp_textBox_maleplural.Size = new System.Drawing.Size(134, 26);
+            this.emp_textBox_maleplural.TabIndex = 1;
+            this.emp_textBox_maleplural.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // emp_tl_male
+            // 
+            this.emp_tl_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tl_male.ColumnCount = 2;
+            this.emp_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_male.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_male.Controls.Add(this.emp_label_male, 0, 0);
+            this.emp_tl_male.Controls.Add(this.emp_textBox_male, 1, 0);
+            this.emp_tl_male.Location = new System.Drawing.Point(0, 36);
+            this.emp_tl_male.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tl_male.Name = "emp_tl_male";
+            this.emp_tl_male.RowCount = 1;
+            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_male.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_male.Size = new System.Drawing.Size(267, 36);
+            this.emp_tl_male.TabIndex = 0;
+            // 
+            // emp_label_male
+            // 
+            this.emp_label_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_male.AutoSize = true;
+            this.emp_label_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_male.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_male.Name = "emp_label_male";
+            this.emp_label_male.Size = new System.Drawing.Size(127, 36);
+            this.emp_label_male.TabIndex = 0;
+            this.emp_label_male.Text = "Masculin";
+            this.emp_label_male.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emp_textBox_male
+            // 
+            this.emp_textBox_male.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_textBox_male.BackColor = System.Drawing.SystemColors.Window;
+            this.emp_textBox_male.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_textBox_male.Location = new System.Drawing.Point(133, 5);
+            this.emp_textBox_male.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.emp_textBox_male.Name = "emp_textBox_male";
+            this.emp_textBox_male.Size = new System.Drawing.Size(134, 26);
+            this.emp_textBox_male.TabIndex = 1;
+            this.emp_textBox_male.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // emp_tl_female
+            // 
+            this.emp_tl_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_tl_female.ColumnCount = 2;
+            this.emp_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_female.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_female.Controls.Add(this.emp_label_female, 0, 0);
+            this.emp_tl_female.Controls.Add(this.emp_textBox_female, 1, 0);
+            this.emp_tl_female.Location = new System.Drawing.Point(0, 72);
+            this.emp_tl_female.Margin = new System.Windows.Forms.Padding(0);
+            this.emp_tl_female.Name = "emp_tl_female";
+            this.emp_tl_female.RowCount = 1;
+            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_female.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
+            this.emp_tl_female.Size = new System.Drawing.Size(267, 36);
+            this.emp_tl_female.TabIndex = 1;
+            // 
+            // emp_label_female
+            // 
+            this.emp_label_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_female.AutoSize = true;
+            this.emp_label_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_female.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_female.Name = "emp_label_female";
+            this.emp_label_female.Size = new System.Drawing.Size(127, 36);
+            this.emp_label_female.TabIndex = 0;
+            this.emp_label_female.Text = "Féminin";
+            this.emp_label_female.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // emp_textBox_female
+            // 
+            this.emp_textBox_female.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_textBox_female.BackColor = System.Drawing.SystemColors.Window;
+            this.emp_textBox_female.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_textBox_female.Location = new System.Drawing.Point(133, 5);
+            this.emp_textBox_female.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.emp_textBox_female.Name = "emp_textBox_female";
+            this.emp_textBox_female.Size = new System.Drawing.Size(134, 26);
+            this.emp_textBox_female.TabIndex = 1;
+            this.emp_textBox_female.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // emp_label_title
+            // 
+            this.emp_label_title.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emp_label_title.AutoSize = true;
+            this.emp_label_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_label_title.Location = new System.Drawing.Point(3, 0);
+            this.emp_label_title.Name = "emp_label_title";
+            this.emp_label_title.Size = new System.Drawing.Size(261, 36);
+            this.emp_label_title.TabIndex = 0;
+            this.emp_label_title.Text = "Empire";
+            this.emp_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.emp_label_title.UseMnemonic = false;
             // 
             // bat_tableLayout
             // 
@@ -1666,7 +1669,7 @@ namespace FrenchTranslation
             this.bat_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.bat_tableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.bat_tableLayout.Size = new System.Drawing.Size(267, 218);
-            this.bat_tableLayout.TabIndex = 4;
+            this.bat_tableLayout.TabIndex = 5;
             // 
             // bat_tl_region
             // 
@@ -1686,7 +1689,7 @@ namespace FrenchTranslation
             this.bat_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.bat_tl_region.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.bat_tl_region.Size = new System.Drawing.Size(267, 38);
-            this.bat_tl_region.TabIndex = 2;
+            this.bat_tl_region.TabIndex = 4;
             // 
             // bat_label_region
             // 
@@ -1733,7 +1736,7 @@ namespace FrenchTranslation
             this.bat_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.bat_tl_femaleplural.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.bat_tl_femaleplural.Size = new System.Drawing.Size(267, 36);
-            this.bat_tl_femaleplural.TabIndex = 2;
+            this.bat_tl_femaleplural.TabIndex = 3;
             // 
             // bat_label_femaleplural
             // 
@@ -1916,7 +1919,7 @@ namespace FrenchTranslation
             this.bat_label_title.Location = new System.Drawing.Point(3, 0);
             this.bat_label_title.Name = "bat_label_title";
             this.bat_label_title.Size = new System.Drawing.Size(261, 36);
-            this.bat_label_title.TabIndex = 3;
+            this.bat_label_title.TabIndex = 0;
             this.bat_label_title.Text = "Battanians";
             this.bat_label_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bat_label_title.UseMnemonic = false;
@@ -2001,58 +2004,22 @@ namespace FrenchTranslation
             this.Name = "CulturesForm";
             this.Text = "Choisir le nom des factions";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.CulturesForm_Load);
             this.flowLayoutPanel.ResumeLayout(false);
             this.tableLayout.ResumeLayout(false);
             this.culture_tableLayout.ResumeLayout(false);
-            this.emp_tableLayout.ResumeLayout(false);
-            this.emp_tableLayout.PerformLayout();
-            this.emp_tl_region.ResumeLayout(false);
-            this.emp_tl_region.PerformLayout();
-            this.emp_tl_femaleplural.ResumeLayout(false);
-            this.emp_tl_femaleplural.PerformLayout();
-            this.emp_tl_maleplural.ResumeLayout(false);
-            this.emp_tl_maleplural.PerformLayout();
-            this.emp_tl_male.ResumeLayout(false);
-            this.emp_tl_male.PerformLayout();
-            this.emp_tl_female.ResumeLayout(false);
-            this.emp_tl_female.PerformLayout();
-            this.khu_tableLayout.ResumeLayout(false);
-            this.khu_tableLayout.PerformLayout();
-            this.khu_tl_region.ResumeLayout(false);
-            this.khu_tl_region.PerformLayout();
-            this.khu_tl_femaleplural.ResumeLayout(false);
-            this.khu_tl_femaleplural.PerformLayout();
-            this.khu_tl_maleplural.ResumeLayout(false);
-            this.khu_tl_maleplural.PerformLayout();
-            this.khu_tl_male.ResumeLayout(false);
-            this.khu_tl_male.PerformLayout();
-            this.khu_tl_female.ResumeLayout(false);
-            this.khu_tl_female.PerformLayout();
             this.vla_tableLayout.ResumeLayout(false);
             this.vla_tableLayout.PerformLayout();
-            this.vla_tl_region.ResumeLayout(false);
-            this.vla_tl_region.PerformLayout();
-            this.vla_tl_femaleplural.ResumeLayout(false);
-            this.vla_tl_femaleplural.PerformLayout();
-            this.vla_tl_maleplural.ResumeLayout(false);
-            this.vla_tl_maleplural.PerformLayout();
             this.vla_tl_male.ResumeLayout(false);
             this.vla_tl_male.PerformLayout();
             this.vla_tl_female.ResumeLayout(false);
             this.vla_tl_female.PerformLayout();
-            this.stu_tableLayout.ResumeLayout(false);
-            this.stu_tableLayout.PerformLayout();
-            this.stu_tl_region.ResumeLayout(false);
-            this.stu_tl_region.PerformLayout();
-            this.stu_tl_femaleplural.ResumeLayout(false);
-            this.stu_tl_femaleplural.PerformLayout();
-            this.stu_tl_maleplural.ResumeLayout(false);
-            this.stu_tl_maleplural.PerformLayout();
-            this.stu_tl_male.ResumeLayout(false);
-            this.stu_tl_male.PerformLayout();
-            this.stu_tl_female.ResumeLayout(false);
-            this.stu_tl_female.PerformLayout();
+            this.vla_tl_maleplural.ResumeLayout(false);
+            this.vla_tl_maleplural.PerformLayout();
+            this.vla_tl_femaleplural.ResumeLayout(false);
+            this.vla_tl_femaleplural.PerformLayout();
+            this.vla_tl_region.ResumeLayout(false);
+            this.vla_tl_region.PerformLayout();
             this.ase_tableLayout.ResumeLayout(false);
             this.ase_tableLayout.PerformLayout();
             this.ase_tl_region.ResumeLayout(false);
@@ -2065,6 +2032,42 @@ namespace FrenchTranslation
             this.ase_tl_male.PerformLayout();
             this.ase_tl_female.ResumeLayout(false);
             this.ase_tl_female.PerformLayout();
+            this.stu_tableLayout.ResumeLayout(false);
+            this.stu_tableLayout.PerformLayout();
+            this.stu_tl_region.ResumeLayout(false);
+            this.stu_tl_region.PerformLayout();
+            this.stu_tl_femaleplural.ResumeLayout(false);
+            this.stu_tl_femaleplural.PerformLayout();
+            this.stu_tl_maleplural.ResumeLayout(false);
+            this.stu_tl_maleplural.PerformLayout();
+            this.stu_tl_male.ResumeLayout(false);
+            this.stu_tl_male.PerformLayout();
+            this.stu_tl_female.ResumeLayout(false);
+            this.stu_tl_female.PerformLayout();
+            this.khu_tableLayout.ResumeLayout(false);
+            this.khu_tableLayout.PerformLayout();
+            this.khu_tl_region.ResumeLayout(false);
+            this.khu_tl_region.PerformLayout();
+            this.khu_tl_femaleplural.ResumeLayout(false);
+            this.khu_tl_femaleplural.PerformLayout();
+            this.khu_tl_maleplural.ResumeLayout(false);
+            this.khu_tl_maleplural.PerformLayout();
+            this.khu_tl_male.ResumeLayout(false);
+            this.khu_tl_male.PerformLayout();
+            this.khu_tl_female.ResumeLayout(false);
+            this.khu_tl_female.PerformLayout();
+            this.emp_tableLayout.ResumeLayout(false);
+            this.emp_tableLayout.PerformLayout();
+            this.emp_tl_region.ResumeLayout(false);
+            this.emp_tl_region.PerformLayout();
+            this.emp_tl_femaleplural.ResumeLayout(false);
+            this.emp_tl_femaleplural.PerformLayout();
+            this.emp_tl_maleplural.ResumeLayout(false);
+            this.emp_tl_maleplural.PerformLayout();
+            this.emp_tl_male.ResumeLayout(false);
+            this.emp_tl_male.PerformLayout();
+            this.emp_tl_female.ResumeLayout(false);
+            this.emp_tl_female.PerformLayout();
             this.bat_tableLayout.ResumeLayout(false);
             this.bat_tableLayout.PerformLayout();
             this.bat_tl_region.ResumeLayout(false);
