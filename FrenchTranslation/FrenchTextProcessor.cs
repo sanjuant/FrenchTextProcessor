@@ -1,6 +1,5 @@
-﻿// Copyright (c) https://sanjuant.fr - All rights reserved.  
+﻿// Copyright © 2021, https://sanjuant.fr - All rights reserved. 
 // https://github.com/sanjuant/FrenchTextProcessor
-// This project is under license - Mozilla Public License 2.0
 
 using System;
 using System.Collections.Generic;
@@ -234,12 +233,12 @@ namespace FrenchTranslation
             }
             else if (token == "a")
             {
-                AppendPrefix(nextWord, token, outputString, isUpper, "au", "à la", "à l'", "aux");
+                AppendPrefix(nextWord, token, outputString, isUpper, "au", "à la", "à l'", "aux", "à");
             }
             return;
         }
 
-        private void AppendPrefix(Tuple<string, string> nextWord, string token, StringBuilder outputString, bool isUpper, string male, string female, string singularVowel, string plural)
+        private void AppendPrefix(Tuple<string, string> nextWord, string token, StringBuilder outputString, bool isUpper, string male, string female, string singularVowel, string plural, string defaultStr = null)
         {
             string nextWordText = nextWord.Item1;
             string nextWordGender = nextWord.Item2;
@@ -276,6 +275,11 @@ namespace FrenchTranslation
             else if ("female".Equals(nextWordGender))
             {
                 outputString.Append(Capitalize(female, isUpper));
+                outputString.Append(' ');
+            }
+            else if (null != defaultStr)
+            {
+                outputString.Append(Capitalize(defaultStr, isUpper));
                 outputString.Append(' ');
             }
             else
